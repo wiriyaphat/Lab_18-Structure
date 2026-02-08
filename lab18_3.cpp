@@ -43,7 +43,7 @@ student text2student(string text){
 }
 
 
-student * findstudent(vector<student> allstudents,int key){ //[Missing Code 3] There is something wrong in this line.
+student * findstudent(vector<student> allstudents,int key){ //[Missing Code 4] There is something wrong in this line.
 	for(unsigned int i = 0; i < allstudents.size(); i++){
 		if(allstudents[i].id  == key) return &allstudents[i];
 	}
@@ -104,7 +104,7 @@ int main(){
 				state = 3;
 			}else{
 			
-			    //[Missing Code 4] Append (push_back) textline to lecture_list[] of the recently added course in allcourses[];
+			    //[Missing Code 3] Append (push_back) textline to lecture_list[] of the recently added course in allcourses[];
 			    
 			}			
 		}else{
